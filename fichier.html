@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio Dev</title>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <div class="logo">Audias <span> BIO TAGA</span></div>
+  <ul class="nav-links">
+    <li><a href="#skills">Compétences</a></li>
+    <li><a href="#projects">Projets</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#contact" class="nav-cta">Me contacter</a></li>
+  </ul>
+</nav>
+
+<div id="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-inner">
+    <div class="hero-badge">Disponible pour de nouveaux projets</div>
+    <h1>
+      Développeur<br>
+      <span class="highlight">& Problem Solver</span>
+    </h1>
+    <p class="hero-sub">
+      Je conçois et développe des applications web modernes, performantes et élégantes. Du back-end robuste aux interfaces qui captivent.
+    </p>
+    <div class="hero-actions">
+      <a href="#projects" class="btn-primary">Voir mes projets →</a>
+      <a href="#contact" class="btn-ghost">Me contacter</a>
+    </div>
+    <div class="hero-stack">
+      <span class="tag">React</span>
+      <span class="tag">Node.js</span>
+      <span class="tag">TypeScript</span>
+      <span class="tag">PostgreSQL</span>
+      <span class="tag">Docker</span>
+      <span class="tag">Python</span>
+      <span class="tag">GraphQL</span>
+    </div>
+  </div>
+</div>
+
+<div id="skills">
+  <div class="skills-wrap">
+    <div class="sec-header">
+      <div class="sec-label">// expertise</div>
+      <h2>Mes <span class="accent">compétences</span></h2>
+    </div>
+    <div class="skills-grid">
+
+      <div class="skill-card">
+        <div class="skill-icon" style="background:rgba(108,99,255,0.15);">⚛️</div>
+        <div class="skill-name">React / Next.js</div>
+        <div class="skill-level">Expert · 4 ans</div>
+        <div class="skill-bar"><div class="skill-fill" style="width:92%;background:var(--c1);"></div></div>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-icon" style="background:rgba(67,198,172,0.15);">🟢</div>
+        <div class="skill-name">Node.js</div>
+        <div class="skill-level">Avancé · 3 ans</div>
+        <div class="skill-bar"><div class="skill-fill" style="width:85%;background:var(--c3);"></div></div>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-icon" style="background:rgba(247,183,49,0.15);">🐍</div>
+        <div class="skill-name">Python</div>
+        <div class="skill-level">Avancé · 3 ans</div>
+        <div class="skill-bar"><div class="skill-fill" style="width:80%;background:var(--c4);"></div></div>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-icon" style="background:rgba(255,101,132,0.15);">🐘</div>
+        <div class="skill-name">PostgreSQL</div>
+        <div class="skill-level">Intermédiaire · 2 ans</div>
+        <div class="skill-bar"><div class="skill-fill" style="width:72%;background:var(--c2);"></div></div>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-icon" style="background:rgba(108,99,255,0.15);">🐳</div>
+        <div class="skill-name">Docker / DevOps</div>
+        <div class="skill-level">Intermédiaire · 2 ans</div>
+        <div class="skill-bar"><div class="skill-fill" style="width:68%;background:var(--c1);"></div></div>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-icon" style="background:rgba(67,198,172,0.15);">🔷</div>
+        <div class="skill-name">TypeScript</div>
+        <div class="skill-level">Avancé · 3 ans</div>
+        <div class="skill-bar"><div class="skill-fill" style="width:88%;background:var(--c3);"></div></div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<section id="projects">
+  <div class="sec-header">
+    <div class="sec-label">// portfolio</div>
+    <h2>Projets <span class="accent">récents</span></h2>
+  </div>
+  <div class="projects-grid">
+
+    <div class="project-card">
+      <div class="project-meta">
+        <span class="project-type">Web App</span>
+        <div class="project-links">
+          <a href="#" class="proj-link">GitHub</a>
+          <a href="#" class="proj-link">Demo →</a>
+        </div>
+      </div>
+      <h3>Plateforme de gestion RH</h3>
+      <p class="proj-desc">Application complète de gestion des ressources humaines avec tableau de bord analytique, gestion des congés et portail employé.</p>
+      <div class="proj-tags">
+        <span class="proj-tag" style="background:rgba(108,99,255,0.15);color:#a9a3ff;">React</span>
+        <span class="proj-tag" style="background:rgba(67,198,172,0.15);color:#6fe4c8;">Node.js</span>
+        <span class="proj-tag" style="background:rgba(255,101,132,0.15);color:#ff9ab0;">PostgreSQL</span>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="project-meta">
+        <span class="project-type">API REST</span>
+        <div class="project-links">
+          <a href="#" class="proj-link">GitHub</a>
+          <a href="#" class="proj-link">Demo →</a>
+        </div>
+      </div>
+      <h3>API e-commerce scalable</h3>
+      <p class="proj-desc">Architecture microservices pour une boutique en ligne avec paiement intégré, gestion des stocks en temps réel et notifications push.</p>
+      <div class="proj-tags">
+        <span class="proj-tag" style="background:rgba(108,99,255,0.15);color:#a9a3ff;">TypeScript</span>
+        <span class="proj-tag" style="background:rgba(67,198,172,0.15);color:#6fe4c8;">Docker</span>
+        <span class="proj-tag" style="background:rgba(247,183,49,0.15);color:#f7c55a;">Redis</span>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="project-meta">
+        <span class="project-type">IA / Data</span>
+        <div class="project-links">
+          <a href="#" class="proj-link">GitHub</a>
+          <a href="#" class="proj-link">Demo →</a>
+        </div>
+      </div>
+      <h3>Dashboard analytique IA</h3>
+      <p class="proj-desc">Outil de visualisation de données avec prédictions par machine learning, rapports automatisés et alertes intelligentes.</p>
+      <div class="proj-tags">
+        <span class="proj-tag" style="background:rgba(247,183,49,0.15);color:#f7c55a;">Python</span>
+        <span class="proj-tag" style="background:rgba(255,101,132,0.15);color:#ff9ab0;">FastAPI</span>
+        <span class="proj-tag" style="background:rgba(108,99,255,0.15);color:#a9a3ff;">Next.js</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<div id="contact">
+  <div class="contact-inner">
+    <div class="sec-header">
+      <div class="sec-label">// contact</div>
+      <h2>Travaillons <span class="accent">ensemble</span></h2>
+    </div>
+    <div class="contact-card">
+      <div class="contact-avatar">👨‍💻</div>
+      <div class="contact-name">Votre Nom</div>
+      <div class="contact-role">Full Stack Developer</div>
+      <div class="contact-links">
+        <a href="#" class="contact-link">🐙 GitHub</a>
+        <a href="#" class="contact-link">💼 LinkedIn</a>
+        <a href="#" class="contact-link">🐦 Twitter</a>
+      </div>
+      <a href="mailto:votre@email.com" class="mail-btn">✉️ Envoyer un message</a>
+    </div>
+  </div>
+</div>
+
+<footer>
+  Construit avec ❤️ par <span>Votre Nom</span> · 2025
+</footer>
+
+</body>
+</html>
