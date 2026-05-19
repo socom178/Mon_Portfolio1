@@ -17,6 +17,7 @@
     <li><a href="#contact">Contact</a></li>
     <li><a href="#contact" class="nav-cta">Me contacter</a></li>
   </ul>
+  <li><button class="theme-toggle" onclick="toggleTheme()">☀️</button></li>
 </nav>
 
 <div id="hero">
@@ -200,6 +201,13 @@
 <footer>
   Réaliser par <span>Audias BIO TAGA</span> · 2026
 </footer>
-
+<script>
+  function toggleTheme() {
+    const root = document.documentElement;
+    const btn = document.querySelector('.theme-toggle');
+    root.classList.toggle('light');
+    btn.textContent = root.classList.contains('light') ? '🌙' : '☀️';
+  }
+</script>
 </body>
 </html>
