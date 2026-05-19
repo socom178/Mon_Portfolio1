@@ -267,7 +267,12 @@
 
   .hero-photo {
     width: 100%;
+    left: 4.5vw;
+    right: 0px;
     opacity: 0.7;
+  }
+  .hero-photo img {
+    width: 85%; 
   }
 
   .hero-inner {
